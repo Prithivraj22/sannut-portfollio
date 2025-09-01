@@ -6,41 +6,41 @@
 }
 
 :root {
-  --primary: #00D4AA;        /* Main brand color */
-  --primary-dark: #00B894;   /* Darker shade of primary */
-  --secondary: #A855F7;      /* Secondary accent color */
-  --accent: #FF6B6B;         /* Highlight/accent color */
-  --success: #00E676;        /* Success/positive color */
-
-  --dark: #0F0F23;           /* Main background */
-  --darker: #08081A;         /* Darker background */
-  --card-bg: #1A1B3A;       /* Card backgrounds */
-
-  --border: #2D2E5A;         /* Border color */
-  --border-hover: #3D4E7A;   /* Border hover state */
-
-  --text-primary: #F8FAFC;   /* Main text */
-  --text-secondary: #CBD5E1; /* Secondary text */
-  --text-muted: #94A3B8;     /* Muted text */
+    --primary: hsl(216, 100%, 50%);
+    --primary-dark: #0052CC;
+    --secondary: #7C3AED;
+    --accent: #F59E0B;
+    --success: #10B981;
+    --dark: #0A0A0F;
+    --darker: #050508;
+    --card-bg: #0F0F17;
+    --border: #1A1A24;
+    --border-hover: #2A2A38;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A1A1AA;
+    --text-muted: #71717A;
+    --gradient-primary: linear-gradient(135deg, #0066FF 0%, #7C3AED 100%);
+    --gradient-accent: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
+    --gradient-subtle: linear-gradient(135deg, rgba(0, 102, 255, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.3);
+    --shadow-glow: 0 0 32px rgba(0, 102, 255, 0.2);
 }
 
-
 [data-theme="light"] {
-  --primary: #059669;        /* Main brand color */
-  --secondary: #3B82F6;      /* Secondary accent color */
-  --accent: #DC2626;         /* Highlight/accent color */
-  --success: #16A34A;        /* Success/positive color */
-
-  --dark: #FFFFFF;           /* Main background */
-  --darker: #F8FAFC;         /* Darker background */
-  --card-bg: #FFFFFF;        /* Card backgrounds */
-
-  --border: #E2E8F0;         /* Border color */
-  --border-hover: #CBD5E1;   /* Border hover state */
-
-  --text-primary: #0F172A;   /* Main text */
-  --text-secondary: #475569; /* Secondary text */
-  --text-muted: #64748B;     /* Muted text */
+    --dark: #FFFFFF;
+    --darker: #F8F9FA;
+    --card-bg: #FFFFFF;
+    --border: #E5E7EB;
+    --border-hover: #D1D5DB;
+    --text-primary: #111827;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.15);
+    --gradient-subtle: linear-gradient(135deg, rgba(0, 102, 255, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%);
 }
 
 html {
